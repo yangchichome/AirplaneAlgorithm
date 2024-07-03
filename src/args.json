@@ -1,0 +1,106 @@
+{
+  "airports": {
+    "SIN": {
+      "name": "Singapore Changi Airport",
+      "city": "Singapore"
+    },
+    "DXB": {
+      "name": "Dubai International Airport",
+      "city": "United Arab Emirates"
+    },
+    "LHR": {
+      "name": "Heathrow Airport",
+      "city": "London, United Kingdom"
+    },
+    "CDG": {
+      "name": "Charles de Gaulle Airport",
+      "city": "Paris, France"
+    },
+    "HKG": {
+      "name": "Hong Kong International Airport",
+      "city": "Hong Kong"
+    },
+    "EWR": {
+      "name": "Newark Liberty International Airport",
+      "city": "New York City, USA"
+    },
+    "GRU": {
+      "name": "Guarulhos International Airport",
+      "city": "São Paulo, Brazil"
+    },
+    "NRT": {
+      "name": "Narita International Airport",
+      "city": "Tokyo, Japan"
+    },
+    "PEK": {
+      "name": "Beijing Capital International Airport",
+      "city": "Beijing, China"
+    },
+    "SYD": {
+      "name": "Sydney Kingsford Smith Airport",
+      "city": "Sydney, Australia"
+    }
+  },
+  "flights": [
+    {
+      "from": "SIN",
+      "to": "DXB",
+      "distance": 6770, 
+      "duration": "7h 30m" 
+    },
+    {
+      "from": "DXB",
+      "to": "LHR",
+      "distance": 5600, 
+      "duration": "6h 15m" 
+    },
+    {
+      "from": "LHR",
+      "to": "CDG",
+      "distance": 340, 
+      "duration": "1h 15m" 
+    },
+    {
+      "from": "CDG",
+      "to": "EWR",
+      "distance": 5871, 
+      "duration": "7h 0m" 
+    },
+    {
+      "from": "EWR",
+      "to": "GRU",
+      "distance": 8054, 
+      "duration": "10h 30m" 
+    },
+    {
+      "from": "NRT",
+      "to": "HKG",
+      "distance": 3068, 
+      "duration": "4h 15m"
+    },
+    {
+      "from": "HKG",
+      "to": "PEK",
+      "distance": 2438, 
+      "duration": "3h 10m" 
+    },
+    {
+      "from": "PEK",
+      "to": "SIN",
+      "distance": 4406, 
+      "duration": "5h 45m" 
+    },
+    {
+      "from": "GRU",
+      "to": "EWR",
+      "distance": 8054, 
+      "duration": "10h 30m" 
+    },
+    {
+      "from": "SYD",
+      "to": "NRT",
+      "distance": 7476, 
+      "duration": "8h 45m" 
+    }
+  ]
+}
