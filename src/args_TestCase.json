@@ -1,0 +1,100 @@
+{
+  "airports": {
+    "SIN": {
+      "name": "Singapore Changi Airport",
+      "city": "Singapore"
+    },
+    "DXB": {
+      "name": "Dubai International Airport",
+      "city": "United Arab Emirates"
+    },
+    "LHR": {
+      "name": "Heathrow Airport",
+      "city": "London, United Kingdom"
+    },
+    "CDG": {
+      "name": "Charles de Gaulle Airport",
+      "city": "Paris, France"
+    },
+    "HKG": {
+      "name": "Hong Kong International Airport",
+      "city": "Hong Kong"
+    },
+    "EWR": {
+      "name": "Newark Liberty International Airport",
+      "city": "New York City, USA"
+    },
+    "GRU": {
+      "name": "Guarulhos International Airport",
+      "city": "São Paulo, Brazil"
+    },
+    "NRT": {
+      "name": "Narita International Airport",
+      "city": "Tokyo, Japan"
+    },
+    "PEK": {
+      "name": "Beijing Capital International Airport",
+      "city": "Beijing, China"
+    },
+    "SYD": {
+      "name": "Sydney Kingsford Smith Airport",
+      "city": "Sydney, Australia"
+    }
+  },
+  "flights": [
+    {
+      "from": "A",
+      "to": "B",
+      "distance": 4, 
+      "duration": "7h 30m" 
+    },
+    {
+      "from": "A",
+      "to": "C",
+      "distance": 2, 
+      "duration": "6h 15m" 
+    },
+    {
+      "from": "C",
+      "to": "B",
+      "distance": 1, 
+      "duration": "1h 15m" 
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "distance": 8, 
+      "duration": "7h 0m" 
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "distance": 2, 
+      "duration": "10h 30m" 
+    },
+    {
+      "from": "C",
+      "to": "E",
+      "distance": 9, 
+      "duration": "4h 15m"
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "distance": 5, 
+      "duration": "3h 10m" 
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "distance": 6, 
+      "duration": "5h 45m" 
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "distance": 2, 
+      "duration": "10h 30m" 
+    },
+  ]
+}

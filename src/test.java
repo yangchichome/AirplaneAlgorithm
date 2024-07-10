@@ -10,6 +10,7 @@ import org.json.JSONObject;
 
 import base.Airport;
 import base.Flight;
+import base.Dijkstra;
 
 public class test {
 
@@ -18,7 +19,7 @@ public class test {
 		System.out.println("cc test");
 
 		// Path to your JSON file (replace with your actual path)
-		String filePath = "src/args.json"; // airplan/src/args.json
+		String filePath = "src/args_TestCase.json"; // airplan/src/args.json
 
 	    // Read JSON file content
 	    FileReader reader = new FileReader(filePath);
@@ -81,4 +82,11 @@ public class test {
 	    for (Flight flight : flights) {
 	      System.out.println(flight.from + " -> " + flight.to + " (Distance: " + flight.distance + ", Duration: " + flight.duration + ")");
 	    }
-	  }}
+	    
+	    List<String> result = new ArrayList<>();
+	    
+	    result = Dijkstra.findShortestPath(flights,"A","F");
+	    
+	    System.out.println("result : "+result);
+	  }
+}
